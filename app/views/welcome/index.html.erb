@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Table</title>
+    <!--<link rel="stylesheet" href="normalize.css">-->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <ol>
+            <li>
+                <h1>Data Table</h1>
+                <p class="style-text">Style a table full of data so that it looks nicer than the brower defaults</p>
+                <div class="center">
+                    <table id="data-table">
+                    <tbody>
+                        <tr >
+                            <td>0</td>
+                            <td>Sean</td>
+                            <td>Daaken</td>
+                        <td>@seandaken</td>
+                        </tr>
+                        <tr>
+                            <td>1</td>
+                            <td>Raine</td>
+                            <td>Lourie</td>
+                            <td>@metaraine</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Matt</td>
+                            <td>Null</td>
+                            <td>@nullempire</td>
+                        </tr>
+                    </tbody>
+                </table>
+                </div>
+                <p class="style-text">It should also handle header rows...</p>
+               <div class="center">
+                <table id="data-table">
+                   <thead>
+                       <tr>
+                           <td>#</td>
+                           <td>First Name</td>
+                           <td>Last Name</td>
+                           <td>UserName</td>
+                       </tr>
+                   </thead>
+                    <tbody>
+                        <tr>
+                            <td>0</td>
+                            <td>Sean</td>
+                            <td>Daaken</td>
+                            <td>@seandaken</td>
+                        </tr>
+                        <tr>
+                            <td>0</td>
+                            <td>Sean</td>
+                            <td>Daaken</td>
+                            <td>@seandaken</td>
+                        </tr>
+                        <tr>
+                            <td>1</td>
+                            <td>Raine</td>
+                            <td>Lourie</td>
+                            <td>@metaraine</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Matt</td>
+                            <td>Null</td>
+                            <td>	@nullempire</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            </li>
+            <li><h1>Stats</h1>
+            <p class="style-text">
+                    Three columns, three prominent numbers, three small labels            </p>
+                    <table id="status">
+                        <tbody>
+                            <tr>
+                              <td>
+      <div class="inline-block">
+        <div class="first-row">7</div>
+        <div class="second-row">followers</div>
+      </div>
+      <div class="inline-block">
+        <div class="first-row">59</div>
+        <div class="second-row">started</div>
+      </div>
+      <div class="inline-block">
+        <div class="first-row">28</div>
+        <div class="second-row">following</div>
+      </div>
+    </td>  
+                            </tr>
+                             
+                        </tbody>
+                    </table>
+                    </li>
+            <li>
+                <h1>Bar Chart</h1>
+                <p class="style-text">Bar widths are set in the HTML as if they were populated from the back-end. Everything else should be styled with CSS.</p>
+                <table id='barchart-table'>
+                    <tbody>
+                        <tr>		    			<th>Ruby on Rails</th>
+			    			<td><div class="barchart" style="width: 98%" >98%</div></td>
+			    		</tr>
+                   <tr>
+			    			<th>Java</th>
+			    			<td><div class="barchart" style="width: 38.1%">38.1%</div></td>
+			    		</tr>
+                   <tr>
+                       <th>C# </th>
+                           <td>
+                               <div class="barchart" style="width:28%">28% </div>
+                           </td>
+                        
+                   </tr>
+                    </tbody>
+                </table>
+            </li>
+            <li><h1>Lightbox</h1>
+            <p class="style-text">The lightbox should display arbitrary content, centered vertically and horizontally, with everything behind it (the rest of the page) darkened. It should obscure the entire screen, no matter where you are on the page. You may want to disable these styles when you're not actively working on them, otherwise they'll cover the whole page.</p>
+            <div class="message-hello">
+                <div class="hello">
+                    <h3>Hello</h3>
+                    <p>Cupcake ipsum dolor sit amet. Gummies lemon drops pastry topping wypas jujubes gummi bears. Cotton candy powder topping bear claw halvah jelly beans bear claw. Chocolate cake ice cream gummies apple pie muffin wafer gummi bears. Cupcake ipsum dolor sit amet. Gummies lemon drops pastry topping wypas jujubes gummi bears. Cotton candy powder topping bear claw halvah jelly beans bear claw. Chocolate cake ice cream gummies apple pie muffin wafer gummi bears.</p>
+                    <button type="button" id="close-btn">Close</button>
+                </div>
+            </div>            
+            </li>
+            <li><h1>Media Block</h1>
+            <p class="style-text">
+                A media block is a left-floated image with some content beside it. Think Facebook updates.
+            </p>
+            <div class="content">
+                <img src="http://placehold.it/50x50" alt="">Cupcake ipsum dolor sit amet. Gummies lemon drops pastry topping wypas jujubes gummi bears. Cotton candy powder topping bear claw halvah jelly beans bear claw. Chocolate cake ice cream gummies apple pie muffin wafer gummi bears.
+            </div> 
+            <p class="style-text">Does it work with a different html structure?</p>
+            <img src="http://placehold.it/50x50" alt=""><h1>Cupcake Ipsum</h1>
+            <div id="content-cupcakeIpsum">
+              Cupcake ipsum dolor sit amet. Gummies lemon drops pastry topping wypas jujubes gummi bears. Cotton candy powder topping bear claw halvah jelly beans bear claw. Chocolate cake ice cream gummies apple pie muffin wafer gummi bears.  
+            </div>
+            <p class="style-text">
+                How about nested media objects?
+            </p>
+            <img src="http://placehold.it/50x50" alt=""><h1>Cupcake Ipsum</h1>
+            <div id="content-cupcakeIpsum">
+              Cupcake ipsum dolor sit amet. Gummies lemon drops pastry topping wypas jujubes gummi bears. Cotton candy powder topping bear claw halvah jelly beans bear claw. Chocolate cake ice cream gummies apple pie muffin wafer gummi bears.
+              <div class='response'>
+                  <img src="http://placehold.it/30x30" alt=""><h2>I like cupcakes!</h2>
+            <div id="content-cupcakeIpsum">
+              Cupcake ipsum dolor sit amet caramels jelly beans. Faworki donut applicake cookie. Apple pie wafer gummies biscuit cupcake gummies pastry.  
+            </div>  
+              </div>
+              <div class='response'>
+                  <img src="http://placehold.it/30x30" alt=""><h2>I like cupcakes, too!</h2>
+            <div id="content-cupcakeIpsum">
+              Cupcake ipsum dolor sit amet donut lemon drops carrot cake topping bonbon powder sweet roll. Lollipop jujubes bonbon chupa chups jelly beans.  
+            </div>  
+              </div>
+            </div></li>
+        </ol>
+    </div>
+</body>
+</html>
